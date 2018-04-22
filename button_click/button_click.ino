@@ -18,7 +18,7 @@ void loop() {
     Serial.println( ++i );
   }
 
-  if(i>99){
+  if(i>3){
       digitalWrite(7, LOW);   // turn the LED on (HIGH is the voltage level)
   } else {
       digitalWrite(7, HIGH);    // turn the LED off by making the voltage LOW
