@@ -59,7 +59,7 @@ void loop() {
 void bounce()
 // Animation of a bouncing ball
 {
-   
+
   const int minC = 0;
   const int maxC = mx.getColumnCount() - 1;
   const int minR = 0;
