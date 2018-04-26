@@ -9,6 +9,7 @@ void button1Changed(int state){
     Serial.println(String(a++) );
   }
 }
+
 void button2Changed(int state){
   if(state == 0 ) {
     Serial.println(String(a--) );
